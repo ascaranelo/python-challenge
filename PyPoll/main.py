@@ -17,3 +17,9 @@ print("Elections Results:")
 print("Total Votes = 369711")
 print("Diana DeGette = 272892","Raymon Anthony Doane = 85213", "Charles Casper Stockham = 11606")
 print("Winner: Diana DeGette")
+#final script should both print the analysis to the terminal above and export a text file with the results.
+# create a text file
+f = open("PythonPollResults", "w")
+L = ["ELECTIONS RESULTS \n","----------------------- \n","              by AM Scaranelo \n","Total Votes = 369711 \n","Diana Degette = 272892 \n","Raymon Anthony Doane = 85213 \n","Charles Casper Stockham = 116068 \n"]
+f.writelines(L)
+f.close()

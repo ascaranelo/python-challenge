@@ -52,7 +52,7 @@ locale.setlocale(locale.LC_ALL, '')
 print(locale.currency(minValues, grouping=True))   
 
 #final script should export a text file with the results
-f = open("PythonBankResults", "w")
+lines(L)
+f.close()f = open("PythonBankResults", "w")
 L = ["FINANCIAL ANALYSIS \n","----------------------- \n","              by AM Scaranelo \n","Total Months = 86 \n","Total = $22,564,198.00 \n","Average Change: -$406,180.50 \n","Greatest Increase in Profits: Mar-10 $1,088,983.00 \n","Greatest Decrease in Profits: Feb-10  -$354,534.00 \n"]
-f.writelines(L)
-f.close()
+f.write
